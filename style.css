@@ -280,7 +280,20 @@ body {
     grid-row: 2/ 3;
     background-color: #fff;
     width: 100rem;
-    height: 35rem;
+    display: grid;
+    grid-template-columns: 10rem 8fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.login-content {
+    grid-column: 2/ -1;
+    grid-row: 1/ 2;
+}
+
+.login-footer {
+    grid-column: 1/ -1;
+    grid-row: 2/ -1;
+    background-color: #edf3f7;
 }
 
 /* end of login */
