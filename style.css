@@ -317,6 +317,10 @@ body {
     background-color: #d9ebf7;
 }
 
+.login-form div {
+    margin-top: 2rem;
+}
+
 .login-footer {
     grid-column: 1/ -1;
     grid-row: 2/ -1;
